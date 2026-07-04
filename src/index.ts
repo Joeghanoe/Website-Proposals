@@ -14,8 +14,8 @@ const server = serve({
     "/*": index,
 
     // Static assets from /public.
-    "/logo.svg": asset("EasyClinics-logo-FC.svg"),
-    "/logo-white.png": asset("Footer-logo.png"),
+    "/logo.svg": asset("logo.svg"),
+    "/logo-white.png": asset("logo-white.png"),
     "/me.jpg": asset("me.jpg"),
     "/example.jpg": asset("example.jpg"),
     "/Lipomassage-e1711354474270.png": asset("Lipomassage-e1711354474270.png"),
